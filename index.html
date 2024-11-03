@@ -17,6 +17,7 @@
         <input type="checkbox" name="casilla" value="hombres" checked>hombres
         <input type="checkbox" name="casilla" value="mujer">mujer
         <input type="checkbox" name="casilla" value="animales" checked>animales
+        <input type="reset"> este es el boton de reseteo
 
     </form>
     <br><br>
@@ -27,7 +28,47 @@
         <input type="radio" name="radio" value="perrito">perrito
         <input type="radio" name="radio" value="missionero">misionero
     </form>
-    
+    <h2>Sube un Archivo</h2>
+    <form action="/subir" method="post" enctype="multipart/form-data">
+        <!-- Campo para seleccionar archivo -->
+        <label for="archivo">Selecciona un archivo:</label>
+        <input type="file" id="archivo" name="archivo" required>
+        <br><br>
+        
+        <!-- Botón de Envío -->
+        <button type="submit">Subir</button>
+    </form>
+    <br><br>
+    <form action="asdasd" method="get" >
+        <input type="password" name="clave" >ingrese su clave
+        <br><br>
+        <input type="submit">esto es un boton 
+        <input type="reset"> este es el boton de reseteo
+    </form>
+    <br><br>
+
+    <form action="jhkdsfbsdfhjikjifhsd" method="get">
+        <label for="pais"> pais donde viajar</label>
+        <select id="pais" name="pais">
+            <option value="chile">chile po wom</option>
+            <option value="peru"> peru pe</option>
+           
+        </select>
+        <br><br>
+        <select name="selector" >miem miem yu tu??</select>
+
+
+    </form>
+    <br><br><br>
+    <form action="fasdfasdf" method="get">
+        <label for="3sel">pruebbabbaba</label>
+        <select name="3sel" id="3sel">
+            <optgroup label="abecedario">
+            <option value="a">a</option>
+            <option value="b">b</option>
+        </optgroup>
+        </select>
+    </form>
     
 </body>
 </html>
