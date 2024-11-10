@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>define el titul.o del documento</title>
+    <link rel="stylesheet" href="css/css.css">
 </head>
+
+
 <body>
 
+    <h4>esto es un h4</h4>
+<ul class="no-style horizontal">
+    <li><a href="enlace1.HTML">enlace1  </a></li>
+    <li><a href="enlace2.html">enldaace2  </a></li>
+    <li><a href="enlace3.html">dasdenlace3  </a></li>
+</ul>
+
+
+    <br><br><br><br>
+    <a href="enlace1.HTML">enlace 1</a>
+    <a href="enlace2.html">enlace 2</a>
+    <a href="">enlace 3</a>
+    <a href="">enlace 4</a>
+<h1 class="titulo">mira amor, tenemos un gatito baiularin</h1>
+<h2>este es un h2</h2>
 <table border="2">
 <caption>segundo intento de tabla</caption>
 <tr>
@@ -20,7 +38,7 @@
     <td>tercero</td>
 </tr>
 <tr>
-    <td colspan="2">aca unimos 2 columnas</td>
+    <td colspan="2" ;>aca unimos 2 columnas</td>
     <td>aca terminamos el cuadro</td>
 </tr>
 <tr>
@@ -34,7 +52,7 @@
 </tr>
 </table>
 <br><br>
-<h1>mira amor, tenemos un gatito baiularin</h1>
+<h1 class="titulo">mira amor, tenemos un gatito baiularin</h1>
 <img src="imagenes/cat-dance-dance-cat.gif" alt="imagen de gatito">
 <h1>aca mi le yo chambeador</h1>
 <img src="https://www.pinterest.com/pin/758364024748685269/" alt="imagen web fallida laputamare">
@@ -49,10 +67,19 @@
 
 </form>
 
+<form action="dsfsdfasd" method="get">
+
+    <fieldset>
+        <legend>esto es un titulo lindo en la esquina</legend>
+        <input type="radio" name="radio" value="primero" checked style="color: crimson;font-size: 3em;">baja
+        <br>
+        <input type="radio" name="radio" value="segundo" >alta  
+    </fieldset>
+</form>
 
 
     <br><br><br><br>
-    <h1>hola como estas?</h1>
+    <h1 class="titulo">hola como estas?</h1>
     <form action="especificar-dondse-se-envia" method="get" >
         <label for="nombre">nombre:</label>
         <input type="text" name="nombre" id="nombre" placeholder="ingrese su texto aca">
@@ -67,14 +94,14 @@
 
     </form>
     <br><br>
-    <h2>pose sexual favoritiña</h2>
+    <h2 class="subti">pose sexual favoritiña</h2>
     <form action="sadasdasf" method="post">
 
         <input type="radio" name="radio" value="garganta profunda" >garganta profunda
         <input type="radio" name="radio" value="perrito">perrito
         <input type="radio" name="radio" value="missionero">misionero
     </form>
-    <h2>Sube un Archivo</h2>
+    <h2 id="id">Sube un Archivo</h2>
     <form action="/subir" method="post" enctype="multipart/form-data">
         <!-- Campo para seleccionar archivo -->
         <label for="archivo">Selecciona un archivo:</label>
